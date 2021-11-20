@@ -1,0 +1,20 @@
+.user__container {
+  display: flex;
+}
+
+.user__name {
+  color: rgb(61, 61, 61);
+  font-weight: 700;
+}
+
+.user__text-wrapper {
+  padding-top: 2.2%;
+}
+
+.user__text {
+  color: #545454;
+}
+
+.user__name, .user__text {
+  font-family: "Asap", sans-serif;
+}

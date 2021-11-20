@@ -1,0 +1,27 @@
+.bot__container {
+  display: flex;
+}
+
+.bot__img {
+}
+
+.bot__name {
+  color: rgb(61, 61, 61);
+  font-weight: 700;
+}
+
+.bot__text-wrapper {
+  padding-top: 2.2%;
+}
+
+.bot__text {
+  color: #545454;
+}
+
+.bot__name, .bot__text, .bot__option {
+  font-family: "Asap", sans-serif;
+}
+
+.bot__option {
+  font-weight: bold;
+}

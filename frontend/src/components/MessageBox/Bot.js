@@ -1,27 +1,7 @@
 import React, { Component } from 'react';
 import './Bot.css';
-import { Radio } from 'antd';
 
 const botLogo = require('../../assets/chatBotLogo.svg');
-
-const radioStyle = {
-  display: 'block',
-  height: '25px',
-  lineHeight: '30px',
-};
-
-const config = {
-  angle: 90,
-  spread: 45,
-  startVelocity: 45,
-  elementCount: 50,
-  dragFriction: 0.1,
-  duration: 3000,
-  stagger: 0,
-  width: "10px",
-  height: "10px",
-  colors: ["#a864fd", "#29cdff", "#78ff44", "#ff718d", "#fdff6a"]
-};
 
 class Bot extends Component {
   state = {
@@ -57,11 +37,8 @@ class Bot extends Component {
     let messageMarginTop = "auto";
     let messageMarginBottom = "auto";
 
-    if (this.props.options.length === 3) {
-      messageMarginTop = "-40px";
-    } else {
-      messageMarginTop = "-10px"
-    }
+    
+    messageMarginTop = "-10px";
     messageMarginBottom = "35px";
 
 

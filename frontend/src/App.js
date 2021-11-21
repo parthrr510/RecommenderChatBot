@@ -69,10 +69,10 @@ class App extends Component {
 
             <div className="col-8 right">
               <div className="app__top-div">
-                <MessageList submitRadioAnswer={this.submitRadioAnswer} isBotLoading={this.state.isBotLoading} messages={this.state.messages} name={this.state.name} />
+                <MessageList isBotLoading={this.state.isBotLoading} messages={this.state.messages}/>
               </div>
               <div className="app__bottom-div">
-                <MessageForm sendMessage={this.sendMessage} sendName={this.sendName} name={this.state.name} />
+                <MessageForm sendMessage={this.sendMessage} />
               </div>
             </div>
           </div>

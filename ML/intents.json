@@ -26,7 +26,7 @@
     },
     {
     "tag": "recommendations",
-    "patterns": ["Recommend me the same movie as The Avengers,Similiar Movies like The Avengers,I want to know same movie as Wimpy Kid"],
+    "patterns": ["Recommend me the same movie as The Avengers","Similiar Movies like The Avengers","I want to know same movie as Wimpy Kid","Can you tell me movies related to Black Widow"],
     "responses": [""],
     "context": [""]   
     }

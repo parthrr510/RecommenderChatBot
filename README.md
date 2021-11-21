@@ -4,7 +4,7 @@
   <br>
 </h1>
 
-<h3 align="center">Youtube: <a href="https://youtu.be/6Cdfg5KeFZU">Link</a></h3>
+<h3 align="center">Youtube: <a href="https://youtu.be/Oq4CDvWxnYQ">Link</a></h3>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
 <div align="center">
@@ -18,8 +18,9 @@
 
 <div align="justify">
 
->Movie Recommender Chatbot is a chatbot in which interacts with the user and recommend them movies on the basis of their watch history.
-> The user interacts with the chatbot tells it about the movie he has watched and then the chatbot recommends the user similiar movies.
+>Movie Recommender Chatbot is a chatbot in which interacts with the user and recommend them movies on the basis of their watch history. 
+>The user interacts with the chatbot tells it about the movie he has watched and then the chatbot recommends the user similar movies.
+>The backend is made on Flask Server and frontend is made on ReactJS and TMDB API is used for the recommendations.
 </div>
 
 
@@ -38,6 +39,7 @@
 
 * Movie Recommender
   * User interacts with the chatbot and tells the bot about the movies he had watched and then the bot let them know similar movies they can watch.
+  * The project used Flask,ReactJS and TMDB API.
 </div>
 
 <div id = "ml-models-used" align="justify">
